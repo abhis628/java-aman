@@ -1,4 +1,4 @@
-package Encaosulation;
+package Encaposulation;
 
 import java.util.Scanner;
 
@@ -9,8 +9,6 @@ public class Person {
 
      Person(String name,int age,String mail){
         this.name=name;
-//        setAge(age);
-//        setMail(mail);
         this.age=age;
         this.mail=mail;
     }

@@ -1,4 +1,4 @@
-package Encaosulation;
+package Encaposulation;
 
 import java.util.Scanner;
 
