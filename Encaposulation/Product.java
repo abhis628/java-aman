@@ -43,7 +43,7 @@ public class Product {
         }
     }
     public void SellProduct(int amount){
-        if(amount>0){
+        if(amount<=0){
             System.out.println("amount to sell must be positive");
         }else if(amount > quantity){
             System.out.println("not enough stock to sell " + amount + "items");
@@ -58,11 +58,12 @@ public class Product {
     public boolean isinstack(){
         return quantity>0;
     }
- public static void main(){
+ public static void main(String[] as){
      Scanner s=new Scanner(System.in);
 
      System.out.printf("enter product id:-");
      int productid=s.nextInt();
+     s.nextLine();
      System.out.printf("enter product name:-");
      String name=s.nextLine();
      System.out.printf("enter price:-");
