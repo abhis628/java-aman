@@ -36,5 +36,6 @@ class Cash implements Payment{
       Cash s3=new Cash();
       s3.pay(amount2);
 
+
   }
 }
